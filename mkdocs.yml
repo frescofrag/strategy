@@ -1,0 +1,51 @@
+site_name: "FrescoFrag Strategy"
+site_description: "Senior IT Architect & Martial Artist. Strategie tattiche, Game Theory e analisi logica del gameplay."
+site_author: "FrescoFrag"
+site_url: "https://frescofrag.github.io/strategy"
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+nav:
+  - Home: index.md
+  - 🛡️ Tactics & Builds:
+      - "Build: Industrial Breacher": docs/03-operations/tactics/dune-awakening-build-industrial-breacher.md
+      # - "Build: Tactical Executioner": docs/03-operations/tactics/dune-awakening-build-tactical-executioner.md
+      - "Dune: Awakening Guide": docs/03-operations/tactics/dune-awakening.md
+      - "Dune: Imperium Guide": docs/03-operations/tactics/dune-imperium.md
+  - 🛰️ Platform Protocols:
+      - "Chat Rules": docs/02-platforms/twitch-rules.md
+      - "Mission Schedule": docs/03-operations/operational-schedule.md
+  - 🏗️ Infrastructure:
+      - "Streaming Stack": docs/01-architecture/streaming-stack.md
+      - "Hardware Setup": docs/01-architecture/hardware-setup.md
+  # - 📈 Roadmap:
+  #     - "Current Sprint": roadmap/current-sprint.md
+  #     - "Backlog": roadmap/backlog.md
