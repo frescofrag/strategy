@@ -2,7 +2,7 @@
 
 > **Codename**: `FF_BREACH_V2` | **Role**: HEAVY INDUSTRIAL OPS | **Tier**: ADVANCED
 
-Questa configurazione sposta il focus operativo dalla precisione individuale alla distruzione di area e all'efficienza estrattiva di massa. È progettata per l'uso di armi pesanti e la dominazione logistica su Arrakis.
+[Questa configurazione](https://dune.gaming.tools/skill-builder/MwBjwRjDTOrvEDG0ejnjddnqRsAmPdbFdKBUUCkATjgBYAON+qJo9AYwFMgA) sposta il focus operativo dalla precisione individuale alla distruzione di area e all'efficienza estrattiva di massa. È progettata per l'uso di armi pesanti e la dominazione logistica su Arrakis.
 
 ---
 
