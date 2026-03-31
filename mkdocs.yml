@@ -67,16 +67,16 @@ extra:
 nav:
   - Home: index.md
   - 🛡️ Tactics & Builds:
-      - "Dune: Awakening Guide": 03-operations/tactics/dune-awakening.md
-      - "Dune: Imperium Guide": 03-operations/tactics/dune-imperium.md
-      - "Build: Industrial Breacher": 03-operations/tactics/dune-awakening-build-industrial-breacher.md
-      # - "Build: Tactical Executioner": 03-operations/tactics/dune-awakening-build-tactical-executioner.md
+      - "Dune: Awakening Guide": operations/tactics/dune-awakening.md
+      - "Dune: Imperium Guide": operations/tactics/dune-imperium.md
+      - "Build: Industrial Breacher": operations/tactics/dune-awakening-build-industrial-breacher.md
+      # - "Build: Tactical Executioner": operations/tactics/dune-awakening-build-tactical-executioner.md
   - 🛰️ Platform Protocols:
-      - "Mission Schedule": 03-operations/operational-schedule.md
-      - "Chat Rules": 02-platforms/twitch-rules.md
+      - "Mission Schedule": operations/operational-schedule.md
+      - "Chat Rules": platforms/twitch-rules.md
   - 🏗️ Infrastructure:
-      - "Streaming Stack": 01-architecture/streaming-stack.md
-      - "Hardware Setup": 01-architecture/hardware-setup.md
+      - "Streaming Stack": architecture/streaming-stack.md
+      - "Hardware Setup": architecture/hardware-setup.md
   # - 📈 Roadmap:
   #     - "Current Sprint": roadmap/current-sprint.md
   #     - "Backlog": roadmap/backlog.md
