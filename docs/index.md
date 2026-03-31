@@ -10,15 +10,15 @@ Benvenuto nell'hub operativo di **FrescoFrag**. Questo repository non è solo un
 
 L'attuale focus operativo è la dominazione tattica di Arrakis. Qui troverai le build validate e i protocolli di ingaggio:
 
-- [Industrial Breacher v2.0](docs/03-operations/tactics/dune-awakening-build-industrial-breacher.md): Massima efficienza estrattiva e distruzione scudi.
-<!-- - [Tactical Executioner v1.5](docs/03-operations/tactics/dune-awakening-build-tactical-executioner.md): Precisione Mentat e letalità Trooper. -->
+- [Industrial Breacher v2.0](03-operations/tactics/dune-awakening-build-industrial-breacher.md): Massima efficienza estrattiva e distruzione scudi.
+<!-- - [Tactical Executioner v1.5](03-operations/tactics/dune-awakening-build-tactical-executioner.md): Precisione Mentat e letalità Trooper. -->
 
 ## 🛰️ Platform Protocols
 
 La coerenza del segnale è garantita da protocolli rigorosi:
 
-- [Twitch Rules](docs/02-platforms/twitch-rules.md): Il codice di condotta per la nostra community.
-- [Streaming Stack](docs/01-architecture/streaming-stack.md): L'infrastruttura tecnica dietro ogni trasmissione.
+- [Twitch Rules](02-platforms/twitch-rules.md): Il codice di condotta per la nostra community.
+- [Streaming Stack](01-architecture/streaming-stack.md): L'infrastruttura tecnica dietro ogni trasmissione.
 
 ---
 

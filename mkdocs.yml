@@ -5,13 +5,11 @@ site_url: "https://frescofrag.github.io/strategy"
 
 theme:
   name: material
+  language: "it"
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: deep purple
-      accent: cyan
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-auto
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -20,11 +18,28 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+    # Palette toggle for automatic mode (https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#automatic-light-dark-mode)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   features:
-    - navigation.tabs
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
     - navigation.sections
-    - search.suggest
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
     - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
     - content.code.copy
 
 markdown_extensions:
@@ -33,19 +48,28 @@ markdown_extensions:
   - pymdownx.superfences
   - tables
 
+extra:
+  social:
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/FrescoFrag
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@FrescoFrag
+    # - icon: fontawesome/brands/discord
+    #   link: https://discord.gg/FrescoFrag
+
 nav:
   - Home: index.md
   - 🛡️ Tactics & Builds:
-      - "Build: Industrial Breacher": docs/03-operations/tactics/dune-awakening-build-industrial-breacher.md
-      # - "Build: Tactical Executioner": docs/03-operations/tactics/dune-awakening-build-tactical-executioner.md
-      - "Dune: Awakening Guide": docs/03-operations/tactics/dune-awakening.md
-      - "Dune: Imperium Guide": docs/03-operations/tactics/dune-imperium.md
+      - "Dune: Awakening Guide": 03-operations/tactics/dune-awakening.md
+      - "Dune: Imperium Guide": 03-operations/tactics/dune-imperium.md
+      - "Build: Industrial Breacher": 03-operations/tactics/dune-awakening-build-industrial-breacher.md
+      # - "Build: Tactical Executioner": 03-operations/tactics/dune-awakening-build-tactical-executioner.md
   - 🛰️ Platform Protocols:
-      - "Chat Rules": docs/02-platforms/twitch-rules.md
-      - "Mission Schedule": docs/03-operations/operational-schedule.md
+      - "Mission Schedule": 03-operations/operational-schedule.md
+      - "Chat Rules": 02-platforms/twitch-rules.md
   - 🏗️ Infrastructure:
-      - "Streaming Stack": docs/01-architecture/streaming-stack.md
-      - "Hardware Setup": docs/01-architecture/hardware-setup.md
+      - "Streaming Stack": 01-architecture/streaming-stack.md
+      - "Hardware Setup": 01-architecture/hardware-setup.md
   # - 📈 Roadmap:
   #     - "Current Sprint": roadmap/current-sprint.md
   #     - "Backlog": roadmap/backlog.md
