@@ -49,6 +49,13 @@ markdown_extensions:
   - tables
 
 extra:
+  analytics:
+    provider: google
+    property: G-LEC8TW0Y90
+  consent:
+    title: Cookie consent
+    description: >-
+      Utilizziamo i cookie per riconoscere le tue visite ripetute e le tue preferenze, nonché per misurare l'efficacia della nostra documentazione e per verificare se gli utenti trovano ciò che cercano. Con il tuo consenso, ci aiuti a migliorare la nostra documentazione.
   social:
     - icon: fontawesome/brands/twitch
       link: https://twitch.tv/FrescoFrag
